@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  font-family: "Microsoft YaHei";
+  color: #2b3f55;
+}
+
+a{
+  text-decoration: none;
+  color: #2b3f55;
+}
+
+a:hover{
+  color: #ea4c89;
+}
+
+.projectwrap{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.projects{
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project{
+  width: 350px;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 50px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  border-radius:3px;
+}
+.projectwrap h2{
+  margin-bottom: 30px;
+  font-size: 1.3em;
+}
+.projects h3{
+  font-weight: bold;
+  margin:20px 0;
+  font-size: 1.3em;
+}
+
+.projects p{
+  margin-bottom: 20px;
+  line-height: 2em;
+  font-weight: 200;
+}
+
+.projects span{
+  font-weight: 200;
+  margin-right: 15px;
+}
+
+.projects img{
+  width: 100%;
+}
+
+.gold{
+  color:gold;
+}
+.green{
+  color: #5FD080;
+}
