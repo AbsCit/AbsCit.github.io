@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei";
+}
+
+.centerinfo{
+  background-color: pink;
+  font-size: 0.8em;
+  font-family: "Microsoft YaHei";
+  color: #2b3f55;
+  height: 500px;
+}
+
+section{
+  display:inline-block;
+}
+
+.info{
+  height: 100px;
+  width: 100px;
+  background-color: #cccccc;
+  margin:10px;
+
+}
